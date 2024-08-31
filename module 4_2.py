@@ -1,6 +1,5 @@
 def test_function():
     def inner_function():
         print('Я в области видимости test_function')
-        print(inner_function())
-
-print(inner_function()) #вызовет ошибку
+    inner_function()
+inner_function() #вызовет ошибку
